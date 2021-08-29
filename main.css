@@ -1,6 +1,18 @@
 
+
 .container{
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 80rem;
+    text-align: center;
+}
+
+.center-container{
+    text-align: center;
+}
+
+.table-container{
+    text-align: center;
+    width: 75rem;
+    padding: 2rem;
 }
