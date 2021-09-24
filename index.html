@@ -12,7 +12,7 @@
         <h1 class="heading">Cash Register Manager</h1>
         <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
     </div>
-
+    <div class="center-container">
     <label for="bill-amount">Bill Amount:</label>
     <input id="bill-amount" type="text">
 
@@ -23,9 +23,10 @@
 
     <button id="check-button">Check</button>
     <p id="error-message"></p>
+    </div>
     
-    <table>
-        <caption>Return Change</caption>
+    <table class="table-container">
+        <caption id="change">Return Change</caption>
         <tr>
             <th>No. of Notes</th>
             <td class="no-of-notes"></td>
@@ -46,7 +47,7 @@
             <td>5</td>
             <td>1</td>
         </tr>
-    </table>
+        </table>
 </body>
 <script src="./index.js"></script>
 </html>
